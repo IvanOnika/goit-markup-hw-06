@@ -120,7 +120,7 @@ ul {
   color: var(--title-text-color);
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: (cubic-bezier(0.4, 0, 0.2, 1));
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -176,6 +176,7 @@ li .page {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts a:hover,
@@ -196,7 +197,7 @@ body {
   fill: #757575;
   transition-property: fill;
   transition-duration: 250ms;
-  transition-timing-function: (cubic-bezier(0.4, 0, 0.2, 1));
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .phone {
@@ -204,7 +205,7 @@ body {
   fill: #757575;
   transition-property: fill;
   transition-duration: 250ms;
-  transition-timing-function: (cubic-bezier(0.4, 0, 0.2, 1));
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-icon:hover,
@@ -286,6 +287,7 @@ button {
   padding: 10px 32px;
   border-radius: 4px;
   border-color: var(--accent-color);
+  border: 0px;
 }
 
 .studio {
@@ -819,8 +821,8 @@ address {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  color: #757575;
-  padding-left: 30px;
+  color: #000;
+  padding-left: 40px;
 }
 
 .modal-input:focus {
@@ -848,7 +850,7 @@ address {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  color: #757575;
+  color: #000;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
@@ -918,6 +920,7 @@ address {
   line-height: 1.87;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: 0;
 }
 
 /*Портфоліо*/
